@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/team-bios/static/css/main.3a597ea2.chunk.css",
-    "main.js": "/team-bios/static/js/main.1b939d57.chunk.js",
-    "main.js.map": "/team-bios/static/js/main.1b939d57.chunk.js.map",
+    "main.js": "/team-bios/static/js/main.b898a527.chunk.js",
+    "main.js.map": "/team-bios/static/js/main.b898a527.chunk.js.map",
     "runtime~main.js": "/team-bios/static/js/runtime~main.a5f90379.js",
     "runtime~main.js.map": "/team-bios/static/js/runtime~main.a5f90379.js.map",
-    "static/js/2.7bc9bcfb.chunk.js": "/team-bios/static/js/2.7bc9bcfb.chunk.js",
-    "static/js/2.7bc9bcfb.chunk.js.map": "/team-bios/static/js/2.7bc9bcfb.chunk.js.map",
+    "static/js/2.6c85f18f.chunk.js": "/team-bios/static/js/2.6c85f18f.chunk.js",
+    "static/js/2.6c85f18f.chunk.js.map": "/team-bios/static/js/2.6c85f18f.chunk.js.map",
     "index.html": "/team-bios/index.html",
-    "precache-manifest.95a3a8d5db1f809ae9ab87c119002661.js": "/team-bios/precache-manifest.95a3a8d5db1f809ae9ab87c119002661.js",
+    "precache-manifest.e7c10f67cb661864132dfdfe790783bf.js": "/team-bios/precache-manifest.e7c10f67cb661864132dfdfe790783bf.js",
     "service-worker.js": "/team-bios/service-worker.js",
-    "static/css/main.3a597ea2.chunk.css.map": "/team-bios/static/css/main.3a597ea2.chunk.css.map",
-    "static/media/teamLogo.jpg": "/team-bios/static/media/teamLogo.112e444f.jpg"
+    "static/css/main.3a597ea2.chunk.css.map": "/team-bios/static/css/main.3a597ea2.chunk.css.map"
   }
 }
