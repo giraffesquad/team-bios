@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/team-bios/static/css/main.3a597ea2.chunk.css",
-    "main.js": "/team-bios/static/js/main.b898a527.chunk.js",
-    "main.js.map": "/team-bios/static/js/main.b898a527.chunk.js.map",
+    "main.css": "/team-bios/static/css/main.f4473d6e.chunk.css",
+    "main.js": "/team-bios/static/js/main.fca44503.chunk.js",
+    "main.js.map": "/team-bios/static/js/main.fca44503.chunk.js.map",
     "runtime~main.js": "/team-bios/static/js/runtime~main.a5f90379.js",
     "runtime~main.js.map": "/team-bios/static/js/runtime~main.a5f90379.js.map",
-    "static/js/2.6c85f18f.chunk.js": "/team-bios/static/js/2.6c85f18f.chunk.js",
-    "static/js/2.6c85f18f.chunk.js.map": "/team-bios/static/js/2.6c85f18f.chunk.js.map",
+    "static/js/2.36b02d0d.chunk.js": "/team-bios/static/js/2.36b02d0d.chunk.js",
+    "static/js/2.36b02d0d.chunk.js.map": "/team-bios/static/js/2.36b02d0d.chunk.js.map",
     "index.html": "/team-bios/index.html",
-    "precache-manifest.e7c10f67cb661864132dfdfe790783bf.js": "/team-bios/precache-manifest.e7c10f67cb661864132dfdfe790783bf.js",
+    "precache-manifest.31507af29c7b7d81f79a407fce6f77a9.js": "/team-bios/precache-manifest.31507af29c7b7d81f79a407fce6f77a9.js",
     "service-worker.js": "/team-bios/service-worker.js",
-    "static/css/main.3a597ea2.chunk.css.map": "/team-bios/static/css/main.3a597ea2.chunk.css.map"
+    "static/css/main.f4473d6e.chunk.css.map": "/team-bios/static/css/main.f4473d6e.chunk.css.map",
+    "static/media/jamesMartineau.jpg": "/team-bios/static/media/jamesMartineau.149c52b9.jpg"
   }
 }
