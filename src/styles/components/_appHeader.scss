@@ -1,0 +1,74 @@
+@import "../colors";
+
+.app-header-container {
+  &-nav {
+    background-color: $liberty-yellow-100;
+    a {
+      color: $liberty-blue-100;
+      font-weight: 200 !important;
+    }
+
+    .super-admin-options {
+      &-btn {
+        color: $liberty-blue-100;
+        font-weight: 200 !important;
+        margin-bottom: 0.25rem;
+        text-transform: none;
+
+        &:hover, &:active {
+          background-color: $liberty-blue-100;
+          box-shadow: none;
+          color: $white;
+          -webkit-box-shadow: none;
+        }
+      }
+    }
+  }
+
+  &-brand {
+    color: $liberty-blue-100;
+    margin: 0;
+    padding-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .app-header-container {
+    #mobile-nav {
+      a {
+        color: $liberty-web-gray-2;
+        font-size: 1.3rem;
+        font-weight: 200;
+      }
+
+      .super-admin {
+        border-top: 1px solid $liberty-web-gray-4;
+        margin: 1rem 0;
+        padding-top: 1rem;
+
+        &-options-btn {
+          background-color: transparent !important;
+          box-shadow: none !important;
+          color: $liberty-web-gray-2 !important;
+          font-size: 1.3rem;
+          font-weight: 200;
+          height: 4rem;
+          padding-left: 2.25rem;
+          text-align: left;
+          text-transform: none;
+          width: 100%;
+
+          &:hover {
+            background-color: $liberty-web-gray-5 !important;
+          }
+        }
+
+        ul {
+          background-color: $liberty-web-gray-5;
+          left: 0 !important;
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}

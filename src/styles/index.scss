@@ -1,0 +1,149 @@
+@import "./colors";
+@import "./imports";
+
+body {
+  background-color: $liberty-body-background !important;
+  color: $liberty-blue-100;
+  min-width: 500px;
+
+  .app-content-container {
+    height: 105vh;
+  }
+
+  nav {
+    background-color: $liberty-nav-background;
+    box-shadow: none;
+    color: $liberty-nav-text-blue !important;
+    padding-right: 1rem;
+
+    .btn {
+      background: none;
+      box-shadow: none;
+      color: $liberty-nav-text-blue;
+      font-size: 1rem;
+      font-weight: 400;
+
+      &:hover {
+        background-color: $liberty-nav-primary-button-background-blue;
+        color: $liberty-nav-primary-button-text;
+      }
+    }
+
+    .brand-logo {
+      color: $liberty-nav-text-blue;
+      font-size: 1.6rem;
+      font-weight: 300;
+      padding-left: 1rem;
+      text-transform: uppercase;
+
+      &-image {
+        height: 3rem;
+        padding-right: 1.5rem;
+        padding-top: 1rem;
+      }
+    }
+
+    .top-navbar-item {
+      a {
+        color: $liberty-nav-text-blue !important;
+        background-color: $liberty-web-gray-4;
+
+        &:hover {
+          background-color: $white;
+        }
+      }
+    }
+  }
+
+  .primary-button-teal {
+    background-color: $liberty-body-primary-button-background-teal !important;
+    box-shadow: none;
+    color: $liberty-body-primary-button-text !important;
+
+    a {
+      color: $liberty-body-primary-button-text !important;
+    }
+
+    &:hover {
+      background-color: $liberty-dark-teal !important;
+      color: $white;
+      a {
+        color: $white !important;
+      }
+    }
+  }
+
+  .secondary-button-gray {
+    background-color: $liberty-body-secondary-button-background-gray !important;
+    color: $liberty-body-secondary-button-text !important;
+
+    a {
+      color: $liberty-body-secondary-button-text !important;
+    }
+
+    &:hover {
+      background-color: $liberty-dark-teal !important;
+      color: $white;
+      a {
+        color: $white !important;
+      }
+    }
+  }
+
+  .left-button {
+    margin-right: 2rem !important;
+  }
+
+  .right-button {
+    margin-left: 2rem !important;
+  }
+
+  .header-style {
+    margin-bottom: 2rem;
+    font-weight: 200 !important;
+  }
+
+  hr {
+    background-color: $liberty-web-gray-4;
+    border: none;
+    color: $liberty-web-gray-4;
+    height: 1px;
+    margin: 2.5rem auto 0;
+  }
+
+  .create-eval-header-title {
+    margin-top: 4rem;
+  }
+
+  .card {
+    border-radius: 1rem;
+    box-shadow: none;
+    margin-top: 1rem;
+  }
+
+  // add theme to Sweet Alerts
+
+  h2.swal2-title {
+    color: $liberty-blue-100 !important;
+  }
+
+  button.swal2-confirm.swal2-styled {
+    background-color: $liberty-body-primary-button-background-teal !important;
+    color: $liberty-body-primary-button-text !important;
+
+    &:hover {
+      background-color: $liberty-dark-teal !important;
+      color: $white !important;
+    }
+  }
+
+  // add theme to checkboxes
+  [type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
+    border-color: $liberty-dark-teal;
+  }
+
+  [type="checkbox"]:checked+label:before {
+    border-bottom-color: $liberty-dark-teal;
+    border-right-color: $liberty-dark-teal;
+  }
+}
