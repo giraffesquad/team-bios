@@ -5,7 +5,7 @@ export default function AppHeader() {
     return (
         <div className="app-header-container">
             <nav className="app-header-container-nav">
-                <div className='nave-wrapper'>
+                <div className='nav-wrapper'>
                     <a className='app-content-container-brand brand-logo' href='/'>
                         I'm A Giraffe
                     </a>
