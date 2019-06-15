@@ -10,7 +10,7 @@ export default class TeamMembers extends Component {
         return (
             <div className='team-members-containers'>
                 <Row>
-                    <Col s={12}>
+                    <Col l={10} s={12} offset='l1'>
                         <h5 className="header-style" >Who We Are</h5>
 
                         <Row>
