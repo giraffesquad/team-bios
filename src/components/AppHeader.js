@@ -1,23 +1,16 @@
-import React, {Component} from "react";
-import { Navbar} from "react-materialize";
-import { Link } from "react-router-dom";
-import { Slide } from 'react-reveal';
+import React from "react";
 
-export default class AppHeader extends Component {
-    render() {
-        const brand = (
-            <Link className="app-header-container-brand" to="/">
-              I'm A Giraffe
-            </Link>
-        );
-
-        return (
-            <Slide top>
-                <div className="app-header-container">
-                    <Navbar className="app-header-container-nav" brand={brand} alignLinks='right'>
-                    </Navbar>
+export default function AppHeader() {
+    //custom header to prevent mobile hamburger menu
+    return (
+        <div className="app-header-container">
+            <nav className="app-header-container-nav">
+                <div className='nave-wrapper'>
+                    <a className='app-content-container-brand brand-logo' href='/'>
+                        I'm A Giraffe
+                    </a>
                 </div>
-            </Slide>
-        );
-    }
+            </nav>
+        </div>
+    );
 }

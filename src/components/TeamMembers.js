@@ -11,7 +11,7 @@ export default class TeamMembers extends Component {
             <div className='team-members-containers'>
                 <Row>
                     <Col l={10} s={12} offset='l1'>
-                        <h5 className="header-style" >Who We Are</h5>
+                        <h4 className="header-style" >Who We Are</h4>
 
                         <Row>
                             { teamMembers.members.map(member => {

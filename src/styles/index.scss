@@ -66,9 +66,9 @@ body {
       color: $liberty-body-primary-button-text !important;
     }
 
-    &:hover {
+    &:hover, &:focus {
       background-color: $liberty-dark-teal !important;
-      color: $white;
+      color: $white !important;
       a {
         color: $white !important;
       }
@@ -147,5 +147,11 @@ body {
   [type="checkbox"]:checked+label:before {
     border-bottom-color: $liberty-dark-teal;
     border-right-color: $liberty-dark-teal;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-style {
+    text-align: center;
   }
 }
