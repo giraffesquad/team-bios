@@ -4,6 +4,8 @@
 body {
   background-color: $liberty-body-background !important;
   color: $liberty-blue-100;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200 !important;
   min-width: 500px;
 
   .app-content-container {

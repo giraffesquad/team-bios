@@ -1,0 +1,53 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "James Martineau",
+      "title": "Software Developer",
+      "bio": "I like doing things!",
+      "imageLink": "../images/team/jamesMartineau.png"
+    },
+    {
+      "id": 2,
+      "name": "Kara Langlois",
+      "title": "Principle Software Developer",
+      "bio": "",
+      "imageLink": ""
+    },
+    {
+      "id": 4,
+      "name": "Mason White",
+      "title": "Senior Software Developer",
+      "bio": "",
+      "imageLink": ""
+    },
+    {
+      "id": 3,
+      "name": "Zachary Fermanis",
+      "title": "Principle Software Developer",
+      "bio": "",
+      "imageLink": ""
+    },
+    {
+      "id": 5,
+      "name": "Michael D. Bettencourt",
+      "title": "Software Developer",
+      "bio": "",
+      "imageLink": ""
+    },
+    {
+      "id": 6,
+      "name": "Adam Lacrosse",
+      "title": "Software Developer",
+      "bio": "",
+      "imageLink": ""
+    },
+    {
+      "id": 7,
+      "name": "Zari Bazarian",
+      "title": "Scrum Master",
+      "bio": "",
+      "imageLink": ""
+    }
+  ]
+}

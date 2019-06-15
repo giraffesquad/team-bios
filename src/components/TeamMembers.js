@@ -1,51 +1,100 @@
 import React, {Component} from "react";
-import { Row, Col, Carousel} from "react-materialize";
-import { Link } from "react-router-dom";
+import { Row, Col, Button} from "react-materialize";
 import { Slide } from 'react-reveal';
-import jamesPic from '../images/team/jamesMartineau.jpg';
+import IndividualMember from './IndividualMember';
+import * as teamMembers from '../helpers/teamInfo';
+import placeHolder from '../images/team/placeHolder.jpg';
 
 export default class TeamMembers extends Component {
     render() {
         return (
-            <Slide left>
-                <div className='team-members-containers'>
-                    <h5 className="header-style" >Who We Are</h5>
-                    <Carousel options={{fullWidth: true,indicators: true}} className="white-text center">
-                        <div className="red">
-                            <h2>
-                                The Tower
-                            </h2>
-                            <p>
-                                Add Team Pic
-                            </p>
-                        </div>
-                        <div className="amber">
-                            <h2>
-                                James Martineau
-                            </h2>
-                            <p>
-                                <img className='team-member-img' src={jamesPic} alt='james martineau'/>
-                            </p>
-                        </div>
-                        <div className="green">
-                            <h2>
-                                Third Panel
-                            </h2>
-                            <p>
-                                This is your third panel
-                            </p>
-                        </div>
-                        <div className="blue">
-                            <h2>
-                                Fourth Panel
-                            </h2>
-                            <p>
-                                This is your fourth panel
-                            </p>
-                        </div>
-                    </Carousel>
-                </div>
-            </Slide>
+            <div className='team-members-containers'>
+                <Row>
+                    <Col s={12}>
+                        <h5 className="header-style" >Who We Are</h5>
+
+                        <Row>
+                            { teamMembers.members.map(member => {
+                                return (
+                                    <IndividualMember
+                                        key={member.id}
+                                        name={member.name}
+                                        title={member.title}
+                                        bio={member.bio}
+                                        imageLink={member.imageLink}
+                                    />
+                                )
+                            })}
+                            {/*<Col xl={4} l={6} s={12}>*/}
+                                {/*<div className='member-wrapper'>*/}
+                                    {/*<img className='member-img' src={placeHolder} alt='member' />*/}
+                                    {/*<Button floating large*/}
+                                            {/*className='bio-btn'*/}
+                                            {/*waves='purple'*/}
+                                            {/*icon='arrow_forward' />*/}
+                                    {/*<div className='details'>*/}
+                                        {/*<p className='name'>James Martineau</p>*/}
+                                        {/*<p className='job-title'>Software Developer</p>*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
+                            {/*</Col>*/}
+                            {/*<Col xl={4} l={6} s={12}>*/}
+                                {/*<div className='member-wrapper'>*/}
+                                    {/*<img className='member-img' src={placeHolder} alt='member' />*/}
+                                    {/*<Button floating large*/}
+                                            {/*className='bio-btn'*/}
+                                            {/*waves='purple'*/}
+                                            {/*icon='arrow_forward' />*/}
+                                    {/*<div className='details'>*/}
+                                        {/*<p className='name'>James Martineau</p>*/}
+                                        {/*<p className='job-title'>Software Developer</p>*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
+                            {/*</Col>*/}
+                            {/*<Col xl={4} l={6} s={12}>*/}
+                                {/*<div className='member-wrapper'>*/}
+                                    {/*<img className='member-img' src={placeHolder} alt='member' />*/}
+                                    {/*<Button floating large*/}
+                                            {/*className='bio-btn'*/}
+                                            {/*waves='purple'*/}
+                                            {/*icon='arrow_forward' />*/}
+                                    {/*<div className='details'>*/}
+                                        {/*<p className='name'>James Martineau</p>*/}
+                                        {/*<p className='job-title'>Software Developer</p>*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
+                            {/*</Col>*/}
+                            {/*<Col xl={4} l={6} s={12}>*/}
+                                {/*<div className='member-wrapper'>*/}
+                                    {/*<img className='member-img' src={placeHolder} alt='member' />*/}
+                                    {/*<Button floating large*/}
+                                            {/*className='bio-btn'*/}
+                                            {/*waves='purple'*/}
+                                            {/*icon='arrow_forward' />*/}
+                                    {/*<div className='details'>*/}
+                                        {/*<p className='name'>James Martineau</p>*/}
+                                        {/*<p className='job-title'>Software Developer</p>*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
+                            {/*</Col>*/}
+                            {/*<Col xl={4} l={6} s={12}>*/}
+                                {/*<div className='member-wrapper'>*/}
+                                    {/*<img className='member-img' src={placeHolder} alt='member' />*/}
+                                    {/*<Button floating large*/}
+                                            {/*className='bio-btn'*/}
+                                            {/*waves='purple'*/}
+                                            {/*icon='arrow_forward' />*/}
+                                    {/*<div className='details'>*/}
+                                        {/*<p className='name'>James Martineau</p>*/}
+                                        {/*<p className='job-title'>Software Developer</p>*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
+                            {/*</Col>*/}
+
+                        </Row>
+                    </Col>
+                </Row>
+            </div>
         );
     }
 }

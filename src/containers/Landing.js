@@ -20,9 +20,7 @@ export default class Landing extends Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col l={10} s={12} offset='l1'>
-                            <TeamMembers/>
-                        </Col>
+                        <TeamMembers/>
                     </Row>
                 </div>
             </Slide>
