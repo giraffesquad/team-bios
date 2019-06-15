@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "638402f080428339d58c8e89589c968c",
+    "revision": "5f5ad533da0ed2e34d5c828a21240fa9",
     "url": "/team-bios/index.html"
   },
   {
-    "revision": "8b7c8ce95ffcacd9af74",
+    "revision": "31a2fd97d2589825b097",
     "url": "/team-bios/static/css/main.19ff82df.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/team-bios/static/js/2.7787e8f1.chunk.js"
   },
   {
-    "revision": "8b7c8ce95ffcacd9af74",
-    "url": "/team-bios/static/js/main.2613dbae.chunk.js"
+    "revision": "31a2fd97d2589825b097",
+    "url": "/team-bios/static/js/main.a709a387.chunk.js"
   },
   {
     "revision": "c1c120c9fe0a66f7cdf5",
