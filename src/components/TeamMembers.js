@@ -15,13 +15,15 @@ export default class TeamMembers extends Component {
                         <Row>
                             { teamMembers.members.map(member => {
                                 return (
-                                    <Fade bottom duration={3250}>
+                                    <Fade bottom
+                                          key={member.id}
+                                          duration={3250}>
                                         <IndividualMember
-                                            key={member.id}
                                             name={member.name}
                                             title={member.title}
                                             bio={member.bio}
                                             imageLink={member.imageLink}
+                                            email={member.email}
                                         />
                                     </Fade>
                                 )

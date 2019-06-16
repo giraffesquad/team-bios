@@ -5,49 +5,56 @@
       "name": "James Martineau",
       "title": "Software Developer",
       "bio": "I like doing things!",
-      "imageLink": "../images/team/jamesMartineau.png"
+      "imageLink": "../images/team/jamesMartineau.png",
+      "email": "James.Martineau@libertymutual.com"
     },
     {
       "id": 2,
       "name": "Kara Langlois",
       "title": "Principle Software Developer",
       "bio": "",
-      "imageLink": ""
+      "imageLink": "",
+      "email": "Kara.Langlois@libertymutual.com"
     },
     {
       "id": 4,
       "name": "Mason White",
       "title": "Senior Software Developer",
       "bio": "",
-      "imageLink": ""
+      "imageLink": "",
+      "email": "Mason.White@libertymutual.com"
     },
     {
       "id": 3,
       "name": "Zachary Fermanis",
       "title": "Principle Software Developer",
       "bio": "",
-      "imageLink": ""
+      "imageLink": "",
+      "email": "Zachary.Fermanis@libertymutual.com"
     },
     {
       "id": 5,
       "name": "Michael D. Bettencourt",
       "title": "Software Developer",
       "bio": "",
-      "imageLink": ""
+      "imageLink": "",
+      "email": "MichaelD.Bettencourt@libertymutual.com"
     },
     {
       "id": 6,
       "name": "Adam Lacrosse",
       "title": "Software Developer",
       "bio": "",
-      "imageLink": ""
+      "imageLink": "",
+      "email": "Adam.Lacrosse@libertymutual.com"
     },
     {
       "id": 7,
       "name": "Zari Bazarian",
       "title": "Scrum Master",
       "bio": "",
-      "imageLink": ""
+      "imageLink": "",
+      "email": "Zari.Bazarian@libertymutual.com"
     }
   ]
 }

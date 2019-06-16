@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import { Row, Modal, Col, Button} from "react-materialize";
+import { Row, Modal, Col, Button, Icon} from "react-materialize";
 import jamesPic from '../images/team/jamesMartineau.jpeg';
 import placeHolder from '../images/team/placeHolder.jpg';
 
@@ -13,32 +13,40 @@ export default class IndividualMember extends Component {
     };
 
     render() {
-        const { name, title, bio, imageLink} = this.props;
+        const { name, title, bio, imageLink, email} = this.props;
 
         return (
-            <div>
+            <div className='individual-member-container'>
                 <Modal
                     open={this.state.isModalOpen}
-                    fixedFooter={true}
+                    className='modal-bio'
                     options={{
                         onCloseEnd: this.handleModal
                     }}
                     >
                     <Row>
-                        <Col l={4} m={12} s={12}>
-                            <div>
+                        <Col l={4} m={5} s={12} className='info-col'>
+                            <div className='center-align'>
                                 <img className='member-img-modal'
                                      src={imageLink ? jamesPic : placeHolder}
                                      alt='member' />
                                 <div className='details-modal'>
-                                    <p className='name'>{name}</p>
-                                    <p className='job-title'>{title}</p>
+                                    <p className='name truncate'>{name}</p>
+                                    <p className='job-title truncate'>{title}</p>
+                                    <p className='center-align email-btn-row'>
+                                        <Button floating
+                                                className='primary-button-teal'
+                                                icon='email'
+                                                node='a'
+                                                href={`mailto:${email}`}
+                                                tooltip={email} />
+                                    </p>
                                 </div>
                             </div>
                         </Col>
-                        <Col s={8}>
+                        <Col l={8} m={7} s={12} className='bio-col'>
                             <div>
-                                <h4>About Me</h4>
+                                <h4 className='header-style about-me-header'>About Me</h4>
                                 <div className='details-modal'>
                                     <p>{bio}</p>
                                 </div>

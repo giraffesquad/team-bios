@@ -1,38 +1,120 @@
 @import "../colors";
 
-.member-wrapper {
+.modal-bio {
+  min-width: 350px;
+  min-height: 50rem;
 
-  .member-img {
-    width: 18rem;
-    border-radius: 50%;
-  }
+  .modal-content {
+    padding: 0 !important;
 
-  .bio-btn {
-    bottom: 3rem;
-    position: relative;
-    right: 4rem;
-  }
-
-  .details {
-    .name {
-      font-size: 1.75rem;
-      margin: 0 0 .5rem;
+    h4 {
+      margin: 0 !important;
     }
 
-    .job-title {
-      font-size: 1.25rem;
-      margin: 0 0 5rem;
+    .info-col {
+      background-color: $liberty-web-gray-2;
+      height: 100vh;
+      padding-top: 2rem;
+
+      .member-img-modal {
+        border-radius: 50%;
+        max-width: 15rem;
+        width: 100%;
+
+      }
+
+      .details-modal {
+        color: $liberty-web-gray-4;
+        margin: 0 auto;
+        text-align: left;
+        width: 75%;
+
+        .name {
+          font-size: 1.75rem;
+          margin: 0 0 .5rem;
+        }
+
+        .job-title {
+          font-size: 1.25rem;
+          margin: 0 0 1rem;
+        }
+      }
+    }
+
+    .bio-col {
+      padding: 2rem;
+    }
+  }
+
+  .modal-footer {
+    display: none;
+  }
+}
+
+.individual-member-container {
+
+  .member-wrapper {
+    .member-img {
+      width: 18rem;
+      border-radius: 50%;
+    }
+
+    .bio-btn {
+      bottom: 3rem;
+      position: relative;
+      right: 4rem;
+    }
+
+    .details {
+      .name {
+        font-size: 1.75rem;
+        margin: 0 0 .5rem;
+      }
+
+      .job-title {
+        font-size: 1.25rem;
+        margin: 0 0 5rem;
+      }
     }
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .member-wrapper {
+  .modal-bio {
+    .modal-content {
+      .info-col {
+        height: 25vh;
+        min-height: 17.5rem;
+        padding: 1rem;
+
+        .member-img-modal {
+          max-width: 10rem;
+        }
+
+        .details-modal {
+          text-align: center;
+
+          .email-btn-row {
+            bottom: 4rem;
+            position: relative;
+            right: -10rem;
+          }
+        }
+      }
+
+      .bio-col {
+        height: 39vh;
+      }
+    }
+  }
+  .individual-member-container {
+    .member-wrapper {
       margin-left: 2.5rem;
       text-align: center;
 
-    .details {
-      margin-right: 4rem;
+      .details {
+        margin-right: 4rem;
+      }
     }
   }
 }
