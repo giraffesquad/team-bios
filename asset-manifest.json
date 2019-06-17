@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/team-bios/static/css/main.66ccbbf8.chunk.css",
-    "main.js": "/team-bios/static/js/main.5d63dbe2.chunk.js",
-    "main.js.map": "/team-bios/static/js/main.5d63dbe2.chunk.js.map",
+    "main.js": "/team-bios/static/js/main.b55ee0de.chunk.js",
+    "main.js.map": "/team-bios/static/js/main.b55ee0de.chunk.js.map",
     "runtime~main.js": "/team-bios/static/js/runtime~main.a5f90379.js",
     "runtime~main.js.map": "/team-bios/static/js/runtime~main.a5f90379.js.map",
-    "static/js/2.eaf26622.chunk.js": "/team-bios/static/js/2.eaf26622.chunk.js",
-    "static/js/2.eaf26622.chunk.js.map": "/team-bios/static/js/2.eaf26622.chunk.js.map",
+    "static/js/2.0eeb2de8.chunk.js": "/team-bios/static/js/2.0eeb2de8.chunk.js",
+    "static/js/2.0eeb2de8.chunk.js.map": "/team-bios/static/js/2.0eeb2de8.chunk.js.map",
     "index.html": "/team-bios/index.html",
-    "precache-manifest.a37376e94e498d95d3d59470820e0389.js": "/team-bios/precache-manifest.a37376e94e498d95d3d59470820e0389.js",
+    "precache-manifest.49d3cb52769625a13d30f5471e1c9cec.js": "/team-bios/precache-manifest.49d3cb52769625a13d30f5471e1c9cec.js",
     "service-worker.js": "/team-bios/service-worker.js",
     "static/css/main.66ccbbf8.chunk.css.map": "/team-bios/static/css/main.66ccbbf8.chunk.css.map",
-    "static/media/karaLanglois.png": "/team-bios/static/media/karaLanglois.861f6db6.png"
+    "static/media/karaLanglois.png": "/team-bios/static/media/karaLanglois.861f6db6.png",
+    "static/media/masonWhite.png": "/team-bios/static/media/masonWhite.6f26445a.png"
   }
 }
