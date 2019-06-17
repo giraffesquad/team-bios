@@ -63,6 +63,12 @@
       bottom: 3rem;
       position: relative;
       right: 4rem;
+
+      &:hover {
+        i {
+          animation: shimmy 1.25s 1;
+        }
+      }
     }
 
     .details {
@@ -116,5 +122,15 @@
         margin-right: 4rem;
       }
     }
+  }
+}
+
+
+@keyframes shimmy {
+  0% {
+    transform: translateX(-2rem);
+  }
+  100% {
+    transform: translateX(5rem);
   }
 }
