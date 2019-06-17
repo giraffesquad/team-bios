@@ -1,5 +1,6 @@
 import jamesPic from '../images/team/jamesMartineau.jpeg';
 import karaPic from '../images/team/karaLanglois.png';
+import masonPic from '../images/team/masonWhite.png';
 import placeHolder from '../images/team/placeHolder.jpg';
 
 export const teamMembers = {
@@ -16,7 +17,7 @@ export const teamMembers = {
       "id": 2,
       "name": "Kara Langlois",
       "title": "Principle Software Developer",
-      "bio": "",
+      "bio": "I do something...",
       "imageLink": karaPic,
       "email": "Kara.Langlois@libertymutual.com"
     },
@@ -24,15 +25,15 @@ export const teamMembers = {
       "id": 4,
       "name": "Mason White",
       "title": "Senior Software Developer",
-      "bio": "",
-      "imageLink": placeHolder,
+      "bio": "I do something...",
+      "imageLink": masonPic,
       "email": "Mason.White@libertymutual.com"
     },
     {
       "id": 3,
       "name": "Zachary Fermanis",
       "title": "Principle Software Developer",
-      "bio": "",
+      "bio": "I do something...",
       "imageLink": placeHolder,
       "email": "Zachary.Fermanis@libertymutual.com"
     },
@@ -48,7 +49,7 @@ export const teamMembers = {
       "id": 6,
       "name": "Adam Lacrosse",
       "title": "Software Developer",
-      "bio": "",
+      "bio": "I do something...",
       "imageLink": placeHolder,
       "email": "Adam.Lacrosse@libertymutual.com"
     },
@@ -56,7 +57,7 @@ export const teamMembers = {
       "id": 7,
       "name": "Zari Bazarian",
       "title": "Scrum Master",
-      "bio": "",
+      "bio": "I do something...",
       "imageLink": placeHolder,
       "email": "Zari.Bazarian@libertymutual.com"
     }
