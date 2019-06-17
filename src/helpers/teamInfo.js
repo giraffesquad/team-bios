@@ -1,6 +1,7 @@
 import jamesPic from '../images/team/jamesMartineau.jpeg';
 import karaPic from '../images/team/karaLanglois.png';
 import masonPic from '../images/team/masonWhite.png';
+import mikePic from '../images/team/michaelBettencourt.png';
 import placeHolder from '../images/team/placeHolder.jpg';
 
 export const teamMembers = {
@@ -42,7 +43,7 @@ export const teamMembers = {
       "name": "Michael D. Bettencourt",
       "title": "Software Developer",
       "bio": "<p>I have been a Full Stack Web Developer since December of 2017. Before embarking on the journey of software development, I graduated from the University of New Hampshire in May 2016 with a focus in Information Systems Management and Business Analytics. After Graduation I began my career with Liberty Mutual in their Technical Development Program, a 2 year technical rotation program where I experienced roles as a Business Analyst, UI/UX Lead, and lastly, a Full Stack Web Developer.</p><p>I have always felt a passion for the user experience. Delivering the best experience for your users should be ultimate goal for all your software efforts, right? Because if you don't have users… well then you just have a pretty screen, and what good is that? I view myself as an advocate for the user first and a developer second. Understanding the why behind our development efforts is important to me, because after all, Agile is all about maximizing the work NOT done. Recently, I have been exploring the role of a UX Engineer, which is a fancy name for someone who can administer user research sessions, design, and code. Sometimes referred to as a unicorn. So that is what I plan to do; embark on the journey that is becoming a unicorn!</p><p>In my free time I enjoy snowboarding, skateboarding, hockey, and most things that involve going fast. I always try to stay creative, so recently I purchased a film camera from a local flea market and try to take it with me everywhere I go. It keeps the creative juices flowing while capturing awesome memories and moments.</p>",
-      "imageLink": placeHolder,
+      "imageLink": mikePic,
       "email": "MichaelD.Bettencourt@libertymutual.com"
     },
     {
