@@ -66,7 +66,7 @@
 
       &:hover {
         i {
-          animation: shimmy 1.25s 1;
+          animation: shimmy 1.5s 1;
         }
       }
     }
@@ -130,7 +130,10 @@
   0% {
     transform: translateX(-2rem);
   }
+  50% {
+    transform: translateX(3rem);
+  }
   100% {
-    transform: translateX(5rem);
+    transform: translateX(0rem);
   }
 }
