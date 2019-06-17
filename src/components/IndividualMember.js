@@ -30,7 +30,7 @@ export default class IndividualMember extends Component {
                         <Col l={4} m={5} s={12} className='info-col'>
                             <div className='center-align'>
                                 <img className='member-img-modal'
-                                     src={imageLink ? jamesPic : placeHolder}
+                                     src={imageLink}
                                      alt='member' />
                                 <div className='details-modal'>
                                     <p className='name truncate'>{name}</p>
@@ -56,7 +56,7 @@ export default class IndividualMember extends Component {
                 </Modal>
                 <Col xl={4} m={5} s={10} offset='l1 s1'>
                     <div className='member-wrapper'>
-                        <img className='member-img' src={imageLink ? jamesPic : placeHolder} alt='member' />
+                        <img className='member-img' src={imageLink} alt='member' />
                         <Button floating medium
                                 className='primary-button-teal bio-btn'
                                 waves='purple'
