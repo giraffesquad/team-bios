@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import { Row, Modal, Col, Button, Icon} from "react-materialize";
 import jamesPic from '../images/team/jamesMartineau.jpeg';
 import placeHolder from '../images/team/placeHolder.jpg';
+import parse from 'html-react-parser';
 
 export default class IndividualMember extends Component {
     state = {
@@ -14,6 +15,7 @@ export default class IndividualMember extends Component {
 
     render() {
         const { name, title, bio, imageLink, email} = this.props;
+        const htmlBio = parse(bio);
 
         return (
             <div className='individual-member-container'>
@@ -47,9 +49,7 @@ export default class IndividualMember extends Component {
                         <Col l={8} m={7} s={12} className='bio-col'>
                             <div>
                                 <h4 className='header-style about-me-header'>About Me</h4>
-                                <div className='details-modal'>
-                                    <p>{bio}</p>
-                                </div>
+                                <div className='details-modal'>{htmlBio}</div>
                             </div>
                         </Col>
                     </Row>
