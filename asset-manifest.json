@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/team-bios/static/css/main.0878f7ab.chunk.css",
+    "main.css": "/team-bios/static/css/main.66ccbbf8.chunk.css",
     "main.js": "/team-bios/static/js/main.10ad8d21.chunk.js",
     "main.js.map": "/team-bios/static/js/main.10ad8d21.chunk.js.map",
     "runtime~main.js": "/team-bios/static/js/runtime~main.a5f90379.js",
@@ -8,8 +8,8 @@
     "static/js/2.7787e8f1.chunk.js": "/team-bios/static/js/2.7787e8f1.chunk.js",
     "static/js/2.7787e8f1.chunk.js.map": "/team-bios/static/js/2.7787e8f1.chunk.js.map",
     "index.html": "/team-bios/index.html",
-    "precache-manifest.f36a2fec3bf66e41887f1ed370092810.js": "/team-bios/precache-manifest.f36a2fec3bf66e41887f1ed370092810.js",
+    "precache-manifest.1fc244cb6a5fba360168d4f6d1c7c2dd.js": "/team-bios/precache-manifest.1fc244cb6a5fba360168d4f6d1c7c2dd.js",
     "service-worker.js": "/team-bios/service-worker.js",
-    "static/css/main.0878f7ab.chunk.css.map": "/team-bios/static/css/main.0878f7ab.chunk.css.map"
+    "static/css/main.66ccbbf8.chunk.css.map": "/team-bios/static/css/main.66ccbbf8.chunk.css.map"
   }
 }
