@@ -2,6 +2,7 @@ import jamesPic from '../images/team/jamesMartineau.jpeg';
 import karaPic from '../images/team/karaLanglois.png';
 import masonPic from '../images/team/masonWhite.png';
 import mikePic from '../images/team/michaelBettencourt.png';
+import jackiePic from '../images/team/jackieMunger.png';
 import placeHolder from '../images/team/placeHolder.jpg';
 
 export const teamMembers = {
@@ -31,14 +32,6 @@ export const teamMembers = {
       "email": "Mason.White@libertymutual.com"
     },
     {
-      "id": 3,
-      "name": "Zachary Fermanis",
-      "title": "Principle Software Developer",
-      "bio": "I do something...",
-      "imageLink": placeHolder,
-      "email": "Zachary.Fermanis@libertymutual.com"
-    },
-    {
       "id": 5,
       "name": "Michael D. Bettencourt",
       "title": "Software Developer",
@@ -47,12 +40,28 @@ export const teamMembers = {
       "email": "MichaelD.Bettencourt@libertymutual.com"
     },
     {
-      "id": 6,
-      "name": "Adam Lacrosse",
-      "title": "Software Developer",
+      "id": 9,
+      "name": "Jackie Munger",
+      "title": "Product Owner II",
       "bio": "I do something...",
-      "imageLink": placeHolder,
-      "email": "Adam.Lacrosse@libertymutual.com"
+      "imageLink": jackiePic,
+      "email": "Jacquelyn.Munger@libertymutual.com"
+    },
+    {
+        "id": 3,
+        "name": "Zachary Fermanis",
+        "title": "Principle Software Developer",
+        "bio": "I do something...",
+        "imageLink": placeHolder,
+        "email": "Zachary.Fermanis@libertymutual.com"
+    },
+    {
+        "id": 6,
+        "name": "Adam LaCasse",
+        "title": "Software Developer",
+        "bio": "I do something...",
+        "imageLink": placeHolder,
+        "email": "Adam.Lacrosse@libertymutual.com"
     },
     {
       "id": 7,
@@ -61,6 +70,14 @@ export const teamMembers = {
       "bio": "I do something...",
       "imageLink": placeHolder,
       "email": "Zari.Bazarian@libertymutual.com"
+    },
+    {
+        "id": 8,
+        "name": "Sandra Chan",
+        "title": "Principle BSA",
+        "bio": "I do something...",
+        "imageLink": placeHolder,
+        "email": "Sandra.Chan@libertymutual.com"
     }
   ]
 };
