@@ -11,9 +11,13 @@
       margin: 0 !important;
     }
 
+    .bio-row {
+      margin-bottom: 0 !important;
+    }
+
     .info-col {
       background-color: $liberty-web-gray-2;
-      height: 100vh;
+      height: 90vh;
       padding-top: 2rem;
 
       .member-img-modal {

@@ -1,7 +1,5 @@
 import React, {Component} from "react";
 import { Row, Modal, Col, Button, Icon} from "react-materialize";
-import jamesPic from '../images/team/jamesMartineau.jpeg';
-import placeHolder from '../images/team/placeHolder.jpg';
 import parse from 'html-react-parser';
 
 export default class IndividualMember extends Component {
@@ -26,7 +24,7 @@ export default class IndividualMember extends Component {
                         onCloseEnd: this.handleModal
                     }}
                     >
-                    <Row>
+                    <Row className='bio-row'>
                         <Col l={4} m={5} s={12} className='info-col'>
                             <div className='center-align'>
                                 <img className='member-img-modal'
@@ -54,7 +52,7 @@ export default class IndividualMember extends Component {
                         </Col>
                     </Row>
                 </Modal>
-                <Col xl={4} m={5} s={10} offset='l1 s1'>
+                <Col xl={4} m={6} s={10} offset='s1'>
                     <div className='member-wrapper'>
                         <img className='member-img' src={imageLink} alt='member' />
                         <Button floating medium

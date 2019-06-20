@@ -1,9 +1,9 @@
-import jamesPic from '../images/team/jamesMartineau.jpeg';
+import jamesPic from '../images/team/jamesMartineau.png';
 import karaPic from '../images/team/karaLanglois.png';
 import masonPic from '../images/team/masonWhite.png';
 import mikePic from '../images/team/michaelBettencourt.png';
 import jackiePic from '../images/team/jackieMunger.png';
-import placeHolder from '../images/team/placeHolder.jpg';
+import placeHolder from '../images/team/placeHolder.png';
 
 export const teamMembers = {
   "members": [

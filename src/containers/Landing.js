@@ -12,7 +12,7 @@ export default class Landing extends Component {
                 <div className="landing-page-container">
                     <Row>
                         <Col s={12}>
-                            <h2 className="header-style" >Welcome to a Tower of Giraffes!</h2>
+                            <h2 className="header-style center-align" >Welcome to a Tower of Giraffes!</h2>
                             <hr/>
                         </Col>
                     </Row>
