@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f23d7ba1429203051a35673d72fddd01",
+    "revision": "61224a75a7e68da33f285f50e6b0c018",
     "url": "/team-bios/index.html"
   },
   {
-    "revision": "d7312c7398b28573e828",
+    "revision": "0f999f43f7bdfdd22128",
     "url": "/team-bios/static/css/main.66ccbbf8.chunk.css"
   },
   {
-    "revision": "0c772123fa7f3b6b8e48",
-    "url": "/team-bios/static/js/2.5f62386d.chunk.js"
+    "revision": "f9ec8175051ab394048c",
+    "url": "/team-bios/static/js/2.67b3c74b.chunk.js"
   },
   {
-    "revision": "d7312c7398b28573e828",
-    "url": "/team-bios/static/js/main.28f8bc1e.chunk.js"
+    "revision": "0f999f43f7bdfdd22128",
+    "url": "/team-bios/static/js/main.435ef72e.chunk.js"
   },
   {
     "revision": "c1c120c9fe0a66f7cdf5",
     "url": "/team-bios/static/js/runtime~main.a5f90379.js"
+  },
+  {
+    "revision": "2fa524b3bffa85fc63dae3580a0f8eba",
+    "url": "/team-bios/static/media/jackieMunger.2fa524b3.png"
   },
   {
     "revision": "861f6db6c20c633ef0d9eb859c8dd9d0",
