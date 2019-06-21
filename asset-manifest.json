@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/team-bios/static/css/main.00ef0093.chunk.css",
-    "main.js": "/team-bios/static/js/main.9b457e30.chunk.js",
-    "main.js.map": "/team-bios/static/js/main.9b457e30.chunk.js.map",
+    "main.css": "/team-bios/static/css/main.01ca58d6.chunk.css",
+    "main.js": "/team-bios/static/js/main.1de27ccc.chunk.js",
+    "main.js.map": "/team-bios/static/js/main.1de27ccc.chunk.js.map",
     "runtime~main.js": "/team-bios/static/js/runtime~main.a5f90379.js",
     "runtime~main.js.map": "/team-bios/static/js/runtime~main.a5f90379.js.map",
-    "static/js/2.03fe95cf.chunk.js": "/team-bios/static/js/2.03fe95cf.chunk.js",
-    "static/js/2.03fe95cf.chunk.js.map": "/team-bios/static/js/2.03fe95cf.chunk.js.map",
+    "static/js/2.4dd73483.chunk.js": "/team-bios/static/js/2.4dd73483.chunk.js",
+    "static/js/2.4dd73483.chunk.js.map": "/team-bios/static/js/2.4dd73483.chunk.js.map",
     "index.html": "/team-bios/index.html",
-    "precache-manifest.6735722c81635e362a8177d7c56a56b5.js": "/team-bios/precache-manifest.6735722c81635e362a8177d7c56a56b5.js",
+    "precache-manifest.5a9f52d7a965272a9f06126bd414b12c.js": "/team-bios/precache-manifest.5a9f52d7a965272a9f06126bd414b12c.js",
     "service-worker.js": "/team-bios/service-worker.js",
-    "static/css/main.00ef0093.chunk.css.map": "/team-bios/static/css/main.00ef0093.chunk.css.map",
+    "static/css/main.01ca58d6.chunk.css.map": "/team-bios/static/css/main.01ca58d6.chunk.css.map",
     "static/media/jackieMunger.png": "/team-bios/static/media/jackieMunger.2fa524b3.png",
     "static/media/jamesMartineau.png": "/team-bios/static/media/jamesMartineau.6def7b01.png",
     "static/media/karaLanglois.png": "/team-bios/static/media/karaLanglois.78eea882.png",
     "static/media/masonWhite.png": "/team-bios/static/media/masonWhite.6f26445a.png",
     "static/media/michaelBettencourt.png": "/team-bios/static/media/michaelBettencourt.6e298858.png",
-    "static/media/placeHolder.png": "/team-bios/static/media/placeHolder.64c2a0b6.png"
+    "static/media/placeHolder.png": "/team-bios/static/media/placeHolder.64c2a0b6.png",
+    "static/media/teamLogo.png": "/team-bios/static/media/teamLogo.6811635a.png"
   }
 }

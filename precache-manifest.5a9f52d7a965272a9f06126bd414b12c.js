@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c10ed3c9e9808b1c53e03575abc490a9",
+    "revision": "a7792201f22c914943464fdb7e3d4080",
     "url": "/team-bios/index.html"
   },
   {
-    "revision": "fa85dfe9a84ce8fbed41",
-    "url": "/team-bios/static/css/main.00ef0093.chunk.css"
+    "revision": "2886dfc822fb1d26e7a2",
+    "url": "/team-bios/static/css/main.01ca58d6.chunk.css"
   },
   {
-    "revision": "13c066dced7dc8c54808",
-    "url": "/team-bios/static/js/2.03fe95cf.chunk.js"
+    "revision": "3957f9ebeef93ea150c4",
+    "url": "/team-bios/static/js/2.4dd73483.chunk.js"
   },
   {
-    "revision": "fa85dfe9a84ce8fbed41",
-    "url": "/team-bios/static/js/main.9b457e30.chunk.js"
+    "revision": "2886dfc822fb1d26e7a2",
+    "url": "/team-bios/static/js/main.1de27ccc.chunk.js"
   },
   {
     "revision": "c1c120c9fe0a66f7cdf5",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "64c2a0b6153bef843401aea541ad648a",
     "url": "/team-bios/static/media/placeHolder.64c2a0b6.png"
+  },
+  {
+    "revision": "6811635ae74c06bfc0a1b911c8d6f189",
+    "url": "/team-bios/static/media/teamLogo.6811635a.png"
   }
 ]);
