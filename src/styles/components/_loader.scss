@@ -1,0 +1,24 @@
+@import "../colors";
+
+.loader-container {
+    margin-top: 20%;
+
+    .loader-img {
+        animation: tilt 1.75s infinite;
+        animation-delay: 1s;
+        border-radius: 50%;
+        width: 20rem;
+    }
+}
+
+@keyframes tilt {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-90deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
