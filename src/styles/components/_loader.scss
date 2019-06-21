@@ -3,11 +3,14 @@
 .loader-container {
     margin-top: 20%;
 
-    .loader-img {
+    .img-wrapper {
         animation: tilt 1.75s infinite;
-        animation-delay: 1s;
-        border-radius: 50%;
-        width: 20rem;
+        animation-delay: 1.5s;
+
+        .loader-img {
+            border-radius: 50%;
+            width: 20rem;
+        }
     }
 }
 
@@ -16,7 +19,7 @@
         transform: rotate(0deg);
     }
     50% {
-        transform: rotate(-90deg);
+        transform: rotate(-50deg);
     }
     100% {
         transform: rotate(0deg);
